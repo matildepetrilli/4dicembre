@@ -1,0 +1,82 @@
+@use 'partials/reset';
+@use 'partials/griglia';
+@use 'partials/batton';
+
+$colore-sfondo: #640fc5;
+$colore-btnprimo: #0e6cff;
+$colore-btndue: #ff8700;
+$colore-btntre: #4caf50;
+$colore-text: #f4f4f4;
+
+
+header {
+    background-color: $colore-sfondo;
+    padding: 50px;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2%;
+
+
+        .logo {
+            display: flex;
+
+            .foto {
+                font-size: medium;
+                font-weight: bold;
+                justify-items: center;
+                align-items: center;
+            }
+        }
+
+        ul {
+            display: flex;
+            width: 30%;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                display: flex;
+                list-style: none;
+                width: 10%;
+                color: $colore-text;
+            }
+        }
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: row;
+       
+        position: relative;
+        width: 100%;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            align-items: flex-start;
+            width: 70%;
+
+            h1 {
+                font-weight: bold;
+            }
+           
+        }
+
+        img {
+            position: absolute;
+            transform: translate(-20%, 40%);
+            bottom: 0px;
+            right: 0px;
+            width: 20%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+main{
+
+}

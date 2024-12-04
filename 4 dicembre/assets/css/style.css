@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+header {
+  background-color: #640fc5;
+  padding: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+header nav .logo {
+  display: flex;
+}
+header nav .logo .foto {
+  font-size: medium;
+  font-weight: bold;
+  justify-items: center;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul li {
+  display: flex;
+  list-style: none;
+  width: 10%;
+  color: #f4f4f4;
+}
+header #hero {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+header #hero .title {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+}
+header #hero .title h1 {
+  font-weight: bold;
+}
+header #hero img {
+  position: absolute;
+  transform: translate(-20%, 40%);
+  bottom: 0px;
+  right: 0px;
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
